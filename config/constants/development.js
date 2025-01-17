@@ -1,5 +1,7 @@
 const DOMAIN = 'topcoder-dev.com'
-const DEV_API_HOSTNAME = `https://api.${DOMAIN}`
+//const DEV_API_HOSTNAME = `https://api.${DOMAIN}`
+const DEV_API_HOSTNAME = 'http://localhost:3000/'
+
 
 const API_V5 = `${DEV_API_HOSTNAME}/v5`
 
