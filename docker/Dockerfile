@@ -12,7 +12,7 @@ ENV BABEL_ENV=$BABEL_ENV
 ENV FILE_PICKER_API_KEY=$FILE_PICKER_API_KEY
 ENV FORCE_DEV=$FORCE_DEV
 ENV NODE_OPTIONS="--max-old-space-size=6144"
-ENV NODE_ENV=development
+
 # Copy the current directory into the Docker image
 COPY . /challenge-engine-ui
 
@@ -25,7 +25,6 @@ USER appuser
 # Install the dependencies from package.json
 RUN echo "NODE ENV in Docker: $NODE_ENV"
 RUN echo "BABEL ENV in Docker: $BABEL_ENV"
-
 RUN npm install
 RUN npm run lint
 #RUN npm run lint:fix
