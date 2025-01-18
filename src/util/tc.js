@@ -13,7 +13,7 @@ import {
   ALLOWED_EDIT_RESOURCE_ROLES
 } from '../config/constants'
 import _ from 'lodash'
-import { decodeToken } from 'tc-auth-lib'
+import { decodeToken } from '../../node_modules/topcoder-react-lib/node_modules/@topcoder-platform/tc-auth-lib'
 import { fetchResources, fetchResourceRoles } from '../services/challenges'
 import store from '../config/store'
 

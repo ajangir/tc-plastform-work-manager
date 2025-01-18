@@ -1,6 +1,6 @@
 import axios from 'axios'
 import store from '../config/store'
-import { getFreshToken, isTokenExpired } from 'tc-auth-lib'
+import { getFreshToken, isTokenExpired } from '../../node_modules/topcoder-react-lib/node_modules/@topcoder-platform/tc-auth-lib'
 const { ACCOUNTS_APP_LOGIN_URL } = process.env
 
 /**

@@ -1,4 +1,4 @@
-import { configureConnector, decodeToken } from 'tc-auth-lib'
+import { configureConnector, decodeToken } from '../../node_modules/topcoder-react-lib/node_modules/@topcoder-platform/tc-auth-lib'
 import { fetchProfile } from '../services/user'
 import {
   LOAD_USER_SUCCESS,
